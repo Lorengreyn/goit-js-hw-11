@@ -2,7 +2,7 @@ import axios from 'axios';
 import { variables } from './variables';
 
 const BASE_URL = 'https://pixabay.com/api';
-const API_KEY = '26726167-c90a9ed89e40361d1e68cdb7';
+const API_KEY = '26726167-c90a9ed89e40361d1e68cdb71';
 axios.defaults.baseURL = BASE_URL;
 
 const fetchImages = async input => {
